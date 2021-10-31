@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./destino-viaje.component.css']
 })
 export class DestinoViajeComponent implements OnInit {
+  nombre: string;
 
-  constructor() { }
+  constructor() { 
+    this.nombre = 'Nombre por defecto';
+  }
 
   ngOnInit(): void {
   }
