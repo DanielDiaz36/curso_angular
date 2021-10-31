@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaDestinosComponent implements OnInit {
   destinos: DestinoViaje[];
+  redesSociales: string[];
 
   constructor() { 
     this.destinos = [];
+    this.redesSociales = ["Facebook", "Twitter", "Instagram"];
   }
 
   ngOnInit(): void {
